@@ -4,7 +4,12 @@ Imports System.Data.SqlClient
 Module Module1
     Public conhi As New SqlConnection
     Public comhi As New SqlCommand
+    '
+    'DB DATA
     Public odahi As New SqlDataAdapter
+    Public odthi As New DataTable
+    '
+
     Public odrhi As SqlDataReader
     Public odshi As New DataSet
     Public str As String
